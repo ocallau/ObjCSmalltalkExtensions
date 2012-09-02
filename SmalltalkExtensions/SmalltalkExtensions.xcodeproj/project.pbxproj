@@ -15,7 +15,6 @@
 		5562970815ED625C00F1E044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5562970615ED625C00F1E044 /* InfoPlist.strings */; };
 		5562970A15ED625C00F1E044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562970915ED625C00F1E044 /* main.m */; };
 		5562970E15ED625C00F1E044 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562970D15ED625C00F1E044 /* DUAppDelegate.m */; };
-		5562972515ED637800F1E044 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562972415ED637800F1E044 /* GHUnitIOS.framework */; };
 		5572259515ED6A5D00C53B2D /* STStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5572259415ED6A5D00C53B2D /* STStringTests.m */; };
 		5572259615ED6B8C00C53B2D /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
 		5572259715ED6B9700C53B2D /* NSMutableArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */; };
@@ -29,6 +28,7 @@
 		5575C18D15E9E857005CF482 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */; };
 		5575C19015E9E857005CF482 /* DUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18F15E9E857005CF482 /* DUViewController.m */; };
 		5575C19B15E9E962005CF482 /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
+		55933F1115F411600087A93A /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55933F1015F411600087A93A /* GHUnitIOS.framework */; };
 		55AEEDB415F2333C00A57948 /* STArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB315F2333C00A57948 /* STArrayTests.m */; };
 		55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,6 @@
 		5562970B15ED625C00F1E044 /* SmalltalkExtensionsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmalltalkExtensionsTests-Prefix.pch"; sourceTree = "<group>"; };
 		5562970C15ED625C00F1E044 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
 		5562970D15ED625C00F1E044 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
-		5562972415ED637800F1E044 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
 		5572259315ED6A5D00C53B2D /* STStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STStringTests.h; path = Tests/STStringTests.h; sourceTree = "<group>"; };
 		5572259415ED6A5D00C53B2D /* STStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STStringTests.m; path = Tests/STStringTests.m; sourceTree = "<group>"; };
 		5575C17515E9E857005CF482 /* SmalltalkExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmalltalkExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +62,7 @@
 		5575C18F15E9E857005CF482 /* DUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUViewController.m; sourceTree = "<group>"; };
 		5575C19915E9E962005CF482 /* NSArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SmalltalkCollections.h"; path = "Extensions/NSArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
 		5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SmalltalkCollections.m"; path = "Extensions/NSArray+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		55933F1015F411600087A93A /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
 		55AEEDB215F2333C00A57948 /* STArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STArrayTests.h; sourceTree = "<group>"; };
 		55AEEDB315F2333C00A57948 /* STArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STArrayTests.m; sourceTree = "<group>"; };
 		55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMutableArrayTest.h; path = Tests/STMutableArrayTest.h; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5562972515ED637800F1E044 /* GHUnitIOS.framework in Frameworks */,
+				55933F1115F411600087A93A /* GHUnitIOS.framework in Frameworks */,
 				5562970015ED625C00F1E044 /* UIKit.framework in Frameworks */,
 				5562970115ED625C00F1E044 /* Foundation.framework in Frameworks */,
 				5562970215ED625C00F1E044 /* CoreGraphics.framework in Frameworks */,
@@ -131,6 +131,7 @@
 		5575C16A15E9E857005CF482 = {
 			isa = PBXGroup;
 			children = (
+				55933F1015F411600087A93A /* GHUnitIOS.framework */,
 				5575C19815E9E8B6005CF482 /* Extensions */,
 				5575C17F15E9E857005CF482 /* SmalltalkExtensions */,
 				5562972615ED647A00F1E044 /* Unit Tests */,
@@ -152,7 +153,6 @@
 		5575C17815E9E857005CF482 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5562972415ED637800F1E044 /* GHUnitIOS.framework */,
 				5575C17915E9E857005CF482 /* UIKit.framework */,
 				5575C17B15E9E857005CF482 /* Foundation.framework */,
 				5575C17D15E9E857005CF482 /* CoreGraphics.framework */,
@@ -348,6 +348,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../gh-unit/Examples/MyTestable-iOS\"",
+					"\"$(SRCROOT)/../../gh-unit/Examples/MyTestable-iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmalltalkExtensionsTests/SmalltalkExtensionsTests-Prefix.pch";
@@ -370,6 +371,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../gh-unit/Examples/MyTestable-iOS\"",
+					"\"$(SRCROOT)/../../gh-unit/Examples/MyTestable-iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmalltalkExtensionsTests/SmalltalkExtensionsTests-Prefix.pch";
