@@ -29,7 +29,7 @@
 		5575C19015E9E857005CF482 /* DUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18F15E9E857005CF482 /* DUViewController.m */; };
 		5575C19B15E9E962005CF482 /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
 		55933F1115F411600087A93A /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55933F1015F411600087A93A /* GHUnitIOS.framework */; };
-		55AEEDB415F2333C00A57948 /* STArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB315F2333C00A57948 /* STArrayTests.m */; };
+		55933F2015F418FE0087A93A /* STArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55933F1E15F418FE0087A93A /* STArrayTests.m */; };
 		55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */; };
 /* End PBXBuildFile section */
 
@@ -63,8 +63,8 @@
 		5575C19915E9E962005CF482 /* NSArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SmalltalkCollections.h"; path = "Extensions/NSArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
 		5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SmalltalkCollections.m"; path = "Extensions/NSArray+SmalltalkCollections.m"; sourceTree = "<group>"; };
 		55933F1015F411600087A93A /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
-		55AEEDB215F2333C00A57948 /* STArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STArrayTests.h; sourceTree = "<group>"; };
-		55AEEDB315F2333C00A57948 /* STArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STArrayTests.m; sourceTree = "<group>"; };
+		55933F1E15F418FE0087A93A /* STArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STArrayTests.m; path = Tests/STArrayTests.m; sourceTree = "<group>"; };
+		55933F1F15F418FE0087A93A /* STArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STArrayTests.h; path = Tests/STArrayTests.h; sourceTree = "<group>"; };
 		55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMutableArrayTest.h; path = Tests/STMutableArrayTest.h; sourceTree = "<group>"; };
 		55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMutableArrayTest.m; path = Tests/STMutableArrayTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,10 +118,10 @@
 		5562972615ED647A00F1E044 /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
+				55933F1E15F418FE0087A93A /* STArrayTests.m */,
+				55933F1F15F418FE0087A93A /* STArrayTests.h */,
 				5572259315ED6A5D00C53B2D /* STStringTests.h */,
 				5572259415ED6A5D00C53B2D /* STStringTests.m */,
-				55AEEDB215F2333C00A57948 /* STArrayTests.h */,
-				55AEEDB315F2333C00A57948 /* STArrayTests.m */,
 				55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */,
 				55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */,
 			);
@@ -293,8 +293,8 @@
 				5572259615ED6B8C00C53B2D /* NSArray+SmalltalkCollections.m in Sources */,
 				5572259715ED6B9700C53B2D /* NSMutableArray+SmalltalkCollections.m in Sources */,
 				5572259815ED6B9700C53B2D /* NSString+SmalltalkString.m in Sources */,
-				55AEEDB415F2333C00A57948 /* STArrayTests.m in Sources */,
 				55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */,
+				55933F2015F418FE0087A93A /* STArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
