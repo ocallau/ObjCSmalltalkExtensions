@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5552F78915E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */; };
+		5552F78D15EB04C1004AEBA9 /* NSString+SmalltalkString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */; };
+		5562970015ED625C00F1E044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17915E9E857005CF482 /* UIKit.framework */; };
+		5562970115ED625C00F1E044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17B15E9E857005CF482 /* Foundation.framework */; };
+		5562970215ED625C00F1E044 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17D15E9E857005CF482 /* CoreGraphics.framework */; };
+		5562970815ED625C00F1E044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5562970615ED625C00F1E044 /* InfoPlist.strings */; };
+		5562970A15ED625C00F1E044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562970915ED625C00F1E044 /* main.m */; };
+		5562970E15ED625C00F1E044 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562970D15ED625C00F1E044 /* DUAppDelegate.m */; };
+		5562972515ED637800F1E044 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562972415ED637800F1E044 /* GHUnitIOS.framework */; };
+		5572259515ED6A5D00C53B2D /* STStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5572259415ED6A5D00C53B2D /* STStringTests.m */; };
+		5572259615ED6B8C00C53B2D /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
+		5572259715ED6B9700C53B2D /* NSMutableArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */; };
+		5572259815ED6B9700C53B2D /* NSString+SmalltalkString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */; };
+		5575C17A15E9E857005CF482 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17915E9E857005CF482 /* UIKit.framework */; };
+		5575C17C15E9E857005CF482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17B15E9E857005CF482 /* Foundation.framework */; };
+		5575C17E15E9E857005CF482 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17D15E9E857005CF482 /* CoreGraphics.framework */; };
+		5575C18415E9E857005CF482 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5575C18215E9E857005CF482 /* InfoPlist.strings */; };
+		5575C18615E9E857005CF482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18515E9E857005CF482 /* main.m */; };
+		5575C18A15E9E857005CF482 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18915E9E857005CF482 /* DUAppDelegate.m */; };
+		5575C18D15E9E857005CF482 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */; };
+		5575C19015E9E857005CF482 /* DUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18F15E9E857005CF482 /* DUViewController.m */; };
+		5575C19B15E9E962005CF482 /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
+		55AEEDB415F2333C00A57948 /* STArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB315F2333C00A57948 /* STArrayTests.m */; };
+		55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5552F78715E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SmalltalkCollections.h"; path = "Extensions/NSMutableArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SmalltalkCollections.m"; path = "Extensions/NSMutableArray+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		5552F78B15EB04C1004AEBA9 /* NSString+SmalltalkString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SmalltalkString.h"; path = "Extensions/NSString+SmalltalkString.h"; sourceTree = "<group>"; };
+		5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SmalltalkString.m"; path = "Extensions/NSString+SmalltalkString.m"; sourceTree = "<group>"; };
+		556296FE15ED625C00F1E044 /* SmalltalkExtensionsTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmalltalkExtensionsTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5562970515ED625C00F1E044 /* SmalltalkExtensionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmalltalkExtensionsTests-Info.plist"; sourceTree = "<group>"; };
+		5562970715ED625C00F1E044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5562970915ED625C00F1E044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5562970B15ED625C00F1E044 /* SmalltalkExtensionsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmalltalkExtensionsTests-Prefix.pch"; sourceTree = "<group>"; };
+		5562970C15ED625C00F1E044 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
+		5562970D15ED625C00F1E044 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
+		5562972415ED637800F1E044 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		5572259315ED6A5D00C53B2D /* STStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STStringTests.h; path = Tests/STStringTests.h; sourceTree = "<group>"; };
+		5572259415ED6A5D00C53B2D /* STStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STStringTests.m; path = Tests/STStringTests.m; sourceTree = "<group>"; };
+		5575C17515E9E857005CF482 /* SmalltalkExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmalltalkExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5575C17915E9E857005CF482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5575C17B15E9E857005CF482 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5575C17D15E9E857005CF482 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5575C18115E9E857005CF482 /* SmalltalkExtensions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmalltalkExtensions-Info.plist"; sourceTree = "<group>"; };
+		5575C18315E9E857005CF482 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5575C18515E9E857005CF482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5575C18715E9E857005CF482 /* SmalltalkExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmalltalkExtensions-Prefix.pch"; sourceTree = "<group>"; };
+		5575C18815E9E857005CF482 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
+		5575C18915E9E857005CF482 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
+		5575C18C15E9E857005CF482 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5575C18E15E9E857005CF482 /* DUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUViewController.h; sourceTree = "<group>"; };
+		5575C18F15E9E857005CF482 /* DUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUViewController.m; sourceTree = "<group>"; };
+		5575C19915E9E962005CF482 /* NSArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SmalltalkCollections.h"; path = "Extensions/NSArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SmalltalkCollections.m"; path = "Extensions/NSArray+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		55AEEDB215F2333C00A57948 /* STArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STArrayTests.h; sourceTree = "<group>"; };
+		55AEEDB315F2333C00A57948 /* STArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STArrayTests.m; sourceTree = "<group>"; };
+		55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMutableArrayTest.h; path = Tests/STMutableArrayTest.h; sourceTree = "<group>"; };
+		55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMutableArrayTest.m; path = Tests/STMutableArrayTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556296FB15ED625C00F1E044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5562972515ED637800F1E044 /* GHUnitIOS.framework in Frameworks */,
+				5562970015ED625C00F1E044 /* UIKit.framework in Frameworks */,
+				5562970115ED625C00F1E044 /* Foundation.framework in Frameworks */,
+				5562970215ED625C00F1E044 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5575C17215E9E857005CF482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5575C17A15E9E857005CF482 /* UIKit.framework in Frameworks */,
+				5575C17C15E9E857005CF482 /* Foundation.framework in Frameworks */,
+				5575C17E15E9E857005CF482 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5562970315ED625C00F1E044 /* SmalltalkExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5562970C15ED625C00F1E044 /* DUAppDelegate.h */,
+				5562970D15ED625C00F1E044 /* DUAppDelegate.m */,
+				5562970415ED625C00F1E044 /* Supporting Files */,
+			);
+			path = SmalltalkExtensionsTests;
+			sourceTree = "<group>";
+		};
+		5562970415ED625C00F1E044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5562970515ED625C00F1E044 /* SmalltalkExtensionsTests-Info.plist */,
+				5562970615ED625C00F1E044 /* InfoPlist.strings */,
+				5562970915ED625C00F1E044 /* main.m */,
+				5562970B15ED625C00F1E044 /* SmalltalkExtensionsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5562972615ED647A00F1E044 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5572259315ED6A5D00C53B2D /* STStringTests.h */,
+				5572259415ED6A5D00C53B2D /* STStringTests.m */,
+				55AEEDB215F2333C00A57948 /* STArrayTests.h */,
+				55AEEDB315F2333C00A57948 /* STArrayTests.m */,
+				55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */,
+				55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		5575C16A15E9E857005CF482 = {
+			isa = PBXGroup;
+			children = (
+				5575C19815E9E8B6005CF482 /* Extensions */,
+				5575C17F15E9E857005CF482 /* SmalltalkExtensions */,
+				5562972615ED647A00F1E044 /* Unit Tests */,
+				5562970315ED625C00F1E044 /* SmalltalkExtensionsTests */,
+				5575C17815E9E857005CF482 /* Frameworks */,
+				5575C17615E9E857005CF482 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5575C17615E9E857005CF482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5575C17515E9E857005CF482 /* SmalltalkExtensions.app */,
+				556296FE15ED625C00F1E044 /* SmalltalkExtensionsTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5575C17815E9E857005CF482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5562972415ED637800F1E044 /* GHUnitIOS.framework */,
+				5575C17915E9E857005CF482 /* UIKit.framework */,
+				5575C17B15E9E857005CF482 /* Foundation.framework */,
+				5575C17D15E9E857005CF482 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5575C17F15E9E857005CF482 /* SmalltalkExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				5575C18815E9E857005CF482 /* DUAppDelegate.h */,
+				5575C18915E9E857005CF482 /* DUAppDelegate.m */,
+				5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */,
+				5575C18E15E9E857005CF482 /* DUViewController.h */,
+				5575C18F15E9E857005CF482 /* DUViewController.m */,
+				5575C18015E9E857005CF482 /* Supporting Files */,
+			);
+			path = SmalltalkExtensions;
+			sourceTree = "<group>";
+		};
+		5575C18015E9E857005CF482 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5575C18115E9E857005CF482 /* SmalltalkExtensions-Info.plist */,
+				5575C18215E9E857005CF482 /* InfoPlist.strings */,
+				5575C18515E9E857005CF482 /* main.m */,
+				5575C18715E9E857005CF482 /* SmalltalkExtensions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5575C19815E9E8B6005CF482 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5575C19915E9E962005CF482 /* NSArray+SmalltalkCollections.h */,
+				5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */,
+				5552F78715E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.h */,
+				5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */,
+				5552F78B15EB04C1004AEBA9 /* NSString+SmalltalkString.h */,
+				5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556296FD15ED625C00F1E044 /* SmalltalkExtensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5562971115ED625C00F1E044 /* Build configuration list for PBXNativeTarget "SmalltalkExtensionsTests" */;
+			buildPhases = (
+				556296FA15ED625C00F1E044 /* Sources */,
+				556296FB15ED625C00F1E044 /* Frameworks */,
+				556296FC15ED625C00F1E044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmalltalkExtensionsTests;
+			productName = SmalltalkExtensionsTests;
+			productReference = 556296FE15ED625C00F1E044 /* SmalltalkExtensionsTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5575C17415E9E857005CF482 /* SmalltalkExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5575C19315E9E857005CF482 /* Build configuration list for PBXNativeTarget "SmalltalkExtensions" */;
+			buildPhases = (
+				5575C17115E9E857005CF482 /* Sources */,
+				5575C17215E9E857005CF482 /* Frameworks */,
+				5575C17315E9E857005CF482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmalltalkExtensions;
+			productName = SmalltalkExtensions;
+			productReference = 5575C17515E9E857005CF482 /* SmalltalkExtensions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5575C16C15E9E857005CF482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DU;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Uchile;
+			};
+			buildConfigurationList = 5575C16F15E9E857005CF482 /* Build configuration list for PBXProject "SmalltalkExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5575C16A15E9E857005CF482;
+			productRefGroup = 5575C17615E9E857005CF482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5575C17415E9E857005CF482 /* SmalltalkExtensions */,
+				556296FD15ED625C00F1E044 /* SmalltalkExtensionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556296FC15ED625C00F1E044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5562970815ED625C00F1E044 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5575C17315E9E857005CF482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5575C18415E9E857005CF482 /* InfoPlist.strings in Resources */,
+				5575C18D15E9E857005CF482 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556296FA15ED625C00F1E044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5562970A15ED625C00F1E044 /* main.m in Sources */,
+				5562970E15ED625C00F1E044 /* DUAppDelegate.m in Sources */,
+				5572259515ED6A5D00C53B2D /* STStringTests.m in Sources */,
+				5572259615ED6B8C00C53B2D /* NSArray+SmalltalkCollections.m in Sources */,
+				5572259715ED6B9700C53B2D /* NSMutableArray+SmalltalkCollections.m in Sources */,
+				5572259815ED6B9700C53B2D /* NSString+SmalltalkString.m in Sources */,
+				55AEEDB415F2333C00A57948 /* STArrayTests.m in Sources */,
+				55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5575C17115E9E857005CF482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5575C18615E9E857005CF482 /* main.m in Sources */,
+				5575C18A15E9E857005CF482 /* DUAppDelegate.m in Sources */,
+				5575C19015E9E857005CF482 /* DUViewController.m in Sources */,
+				5575C19B15E9E962005CF482 /* NSArray+SmalltalkCollections.m in Sources */,
+				5552F78915E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m in Sources */,
+				5552F78D15EB04C1004AEBA9 /* NSString+SmalltalkString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5562970615ED625C00F1E044 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5562970715ED625C00F1E044 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5575C18215E9E857005CF482 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5575C18315E9E857005CF482 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5575C18C15E9E857005CF482 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5562970F15ED625C00F1E044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../gh-unit/Examples/MyTestable-iOS\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmalltalkExtensionsTests/SmalltalkExtensionsTests-Prefix.pch";
+				INFOPLIST_FILE = "SmalltalkExtensionsTests/SmalltalkExtensionsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5562971015ED625C00F1E044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../gh-unit/Examples/MyTestable-iOS\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmalltalkExtensionsTests/SmalltalkExtensionsTests-Prefix.pch";
+				INFOPLIST_FILE = "SmalltalkExtensionsTests/SmalltalkExtensionsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5575C19115E9E857005CF482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5575C19215E9E857005CF482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5575C19415E9E857005CF482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmalltalkExtensions/SmalltalkExtensions-Prefix.pch";
+				INFOPLIST_FILE = "SmalltalkExtensions/SmalltalkExtensions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5575C19515E9E857005CF482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmalltalkExtensions/SmalltalkExtensions-Prefix.pch";
+				INFOPLIST_FILE = "SmalltalkExtensions/SmalltalkExtensions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5562971115ED625C00F1E044 /* Build configuration list for PBXNativeTarget "SmalltalkExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5562970F15ED625C00F1E044 /* Debug */,
+				5562971015ED625C00F1E044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5575C16F15E9E857005CF482 /* Build configuration list for PBXProject "SmalltalkExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5575C19115E9E857005CF482 /* Debug */,
+				5575C19215E9E857005CF482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5575C19315E9E857005CF482 /* Build configuration list for PBXNativeTarget "SmalltalkExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5575C19415E9E857005CF482 /* Debug */,
+				5575C19515E9E857005CF482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5575C16C15E9E857005CF482 /* Project object */;
+}
