@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5552F78915E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */; };
-		5552F78D15EB04C1004AEBA9 /* NSString+SmalltalkString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */; };
+		55052ADC164468B700035D71 /* NSArray+SmalltalkCollections.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5575C19915E9E962005CF482 /* NSArray+SmalltalkCollections.h */; };
+		55052ADD164468B700035D71 /* NSMutableArray+SmalltalkCollections.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5552F78715E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.h */; };
+		55052ADE164468B700035D71 /* NSString+SmalltalkString.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5552F78B15EB04C1004AEBA9 /* NSString+SmalltalkString.h */; };
 		5562970015ED625C00F1E044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17915E9E857005CF482 /* UIKit.framework */; };
 		5562970115ED625C00F1E044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17B15E9E857005CF482 /* Foundation.framework */; };
 		5562970215ED625C00F1E044 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17D15E9E857005CF482 /* CoreGraphics.framework */; };
@@ -19,19 +20,29 @@
 		5572259615ED6B8C00C53B2D /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
 		5572259715ED6B9700C53B2D /* NSMutableArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */; };
 		5572259815ED6B9700C53B2D /* NSString+SmalltalkString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */; };
-		5575C17A15E9E857005CF482 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17915E9E857005CF482 /* UIKit.framework */; };
-		5575C17C15E9E857005CF482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17B15E9E857005CF482 /* Foundation.framework */; };
-		5575C17E15E9E857005CF482 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17D15E9E857005CF482 /* CoreGraphics.framework */; };
-		5575C18415E9E857005CF482 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5575C18215E9E857005CF482 /* InfoPlist.strings */; };
-		5575C18615E9E857005CF482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18515E9E857005CF482 /* main.m */; };
-		5575C18A15E9E857005CF482 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18915E9E857005CF482 /* DUAppDelegate.m */; };
-		5575C18D15E9E857005CF482 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */; };
-		5575C19015E9E857005CF482 /* DUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C18F15E9E857005CF482 /* DUViewController.m */; };
-		5575C19B15E9E962005CF482 /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
 		55933F1115F411600087A93A /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55933F1015F411600087A93A /* GHUnitIOS.framework */; };
 		55933F2015F418FE0087A93A /* STArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55933F1E15F418FE0087A93A /* STArrayTests.m */; };
 		55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */; };
+		55DBC884163096D7005837FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17B15E9E857005CF482 /* Foundation.framework */; };
+		55DBC889163096D7005837FD /* STExt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55DBC888163096D7005837FD /* STExt.h */; };
+		55DBC88B163096D7005837FD /* STExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBC88A163096D7005837FD /* STExt.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55DBC881163096D7005837FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				55DBC889163096D7005837FD /* STExt.h in CopyFiles */,
+				55052ADC164468B700035D71 /* NSArray+SmalltalkCollections.h in CopyFiles */,
+				55052ADD164468B700035D71 /* NSMutableArray+SmalltalkCollections.h in CopyFiles */,
+				55052ADE164468B700035D71 /* NSString+SmalltalkString.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5552F78715E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SmalltalkCollections.h"; path = "Extensions/NSMutableArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
@@ -47,19 +58,9 @@
 		5562970D15ED625C00F1E044 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
 		5572259315ED6A5D00C53B2D /* STStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STStringTests.h; path = Tests/STStringTests.h; sourceTree = "<group>"; };
 		5572259415ED6A5D00C53B2D /* STStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STStringTests.m; path = Tests/STStringTests.m; sourceTree = "<group>"; };
-		5575C17515E9E857005CF482 /* SmalltalkExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmalltalkExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5575C17915E9E857005CF482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5575C17B15E9E857005CF482 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5575C17D15E9E857005CF482 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5575C18115E9E857005CF482 /* SmalltalkExtensions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmalltalkExtensions-Info.plist"; sourceTree = "<group>"; };
-		5575C18315E9E857005CF482 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5575C18515E9E857005CF482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5575C18715E9E857005CF482 /* SmalltalkExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmalltalkExtensions-Prefix.pch"; sourceTree = "<group>"; };
-		5575C18815E9E857005CF482 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
-		5575C18915E9E857005CF482 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
-		5575C18C15E9E857005CF482 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5575C18E15E9E857005CF482 /* DUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUViewController.h; sourceTree = "<group>"; };
-		5575C18F15E9E857005CF482 /* DUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUViewController.m; sourceTree = "<group>"; };
 		5575C19915E9E962005CF482 /* NSArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SmalltalkCollections.h"; path = "Extensions/NSArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
 		5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SmalltalkCollections.m"; path = "Extensions/NSArray+SmalltalkCollections.m"; sourceTree = "<group>"; };
 		55933F1015F411600087A93A /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
@@ -67,6 +68,10 @@
 		55933F1F15F418FE0087A93A /* STArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STArrayTests.h; path = Tests/STArrayTests.h; sourceTree = "<group>"; };
 		55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMutableArrayTest.h; path = Tests/STMutableArrayTest.h; sourceTree = "<group>"; };
 		55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMutableArrayTest.m; path = Tests/STMutableArrayTest.m; sourceTree = "<group>"; };
+		55DBC883163096D7005837FD /* libSTExt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTExt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DBC887163096D7005837FD /* STExt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STExt-Prefix.pch"; sourceTree = "<group>"; };
+		55DBC888163096D7005837FD /* STExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STExt.h; sourceTree = "<group>"; };
+		55DBC88A163096D7005837FD /* STExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +86,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5575C17215E9E857005CF482 /* Frameworks */ = {
+		55DBC880163096D7005837FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5575C17A15E9E857005CF482 /* UIKit.framework in Frameworks */,
-				5575C17C15E9E857005CF482 /* Foundation.framework in Frameworks */,
-				5575C17E15E9E857005CF482 /* CoreGraphics.framework in Frameworks */,
+				55DBC884163096D7005837FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,9 +136,9 @@
 			children = (
 				55933F1015F411600087A93A /* GHUnitIOS.framework */,
 				5575C19815E9E8B6005CF482 /* Extensions */,
-				5575C17F15E9E857005CF482 /* SmalltalkExtensions */,
 				5562972615ED647A00F1E044 /* Unit Tests */,
 				5562970315ED625C00F1E044 /* SmalltalkExtensionsTests */,
+				55DBC885163096D7005837FD /* STExt */,
 				5575C17815E9E857005CF482 /* Frameworks */,
 				5575C17615E9E857005CF482 /* Products */,
 			);
@@ -144,8 +147,8 @@
 		5575C17615E9E857005CF482 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5575C17515E9E857005CF482 /* SmalltalkExtensions.app */,
 				556296FE15ED625C00F1E044 /* SmalltalkExtensionsTests.app */,
+				55DBC883163096D7005837FD /* libSTExt.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,30 +163,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5575C17F15E9E857005CF482 /* SmalltalkExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				5575C18815E9E857005CF482 /* DUAppDelegate.h */,
-				5575C18915E9E857005CF482 /* DUAppDelegate.m */,
-				5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */,
-				5575C18E15E9E857005CF482 /* DUViewController.h */,
-				5575C18F15E9E857005CF482 /* DUViewController.m */,
-				5575C18015E9E857005CF482 /* Supporting Files */,
-			);
-			path = SmalltalkExtensions;
-			sourceTree = "<group>";
-		};
-		5575C18015E9E857005CF482 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5575C18115E9E857005CF482 /* SmalltalkExtensions-Info.plist */,
-				5575C18215E9E857005CF482 /* InfoPlist.strings */,
-				5575C18515E9E857005CF482 /* main.m */,
-				5575C18715E9E857005CF482 /* SmalltalkExtensions-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		5575C19815E9E8B6005CF482 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +174,24 @@
 				5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		55DBC885163096D7005837FD /* STExt */ = {
+			isa = PBXGroup;
+			children = (
+				55DBC888163096D7005837FD /* STExt.h */,
+				55DBC88A163096D7005837FD /* STExt.m */,
+				55DBC886163096D7005837FD /* Supporting Files */,
+			);
+			path = STExt;
+			sourceTree = "<group>";
+		};
+		55DBC886163096D7005837FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DBC887163096D7005837FD /* STExt-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,22 +214,22 @@
 			productReference = 556296FE15ED625C00F1E044 /* SmalltalkExtensionsTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5575C17415E9E857005CF482 /* SmalltalkExtensions */ = {
+		55DBC882163096D7005837FD /* STExt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5575C19315E9E857005CF482 /* Build configuration list for PBXNativeTarget "SmalltalkExtensions" */;
+			buildConfigurationList = 55DBC88C163096D7005837FD /* Build configuration list for PBXNativeTarget "STExt" */;
 			buildPhases = (
-				5575C17115E9E857005CF482 /* Sources */,
-				5575C17215E9E857005CF482 /* Frameworks */,
-				5575C17315E9E857005CF482 /* Resources */,
+				55DBC87F163096D7005837FD /* Sources */,
+				55DBC880163096D7005837FD /* Frameworks */,
+				55DBC881163096D7005837FD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SmalltalkExtensions;
-			productName = SmalltalkExtensions;
-			productReference = 5575C17515E9E857005CF482 /* SmalltalkExtensions.app */;
-			productType = "com.apple.product-type.application";
+			name = STExt;
+			productName = STExt;
+			productReference = 55DBC883163096D7005837FD /* libSTExt.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -256,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5575C17415E9E857005CF482 /* SmalltalkExtensions */,
 				556296FD15ED625C00F1E044 /* SmalltalkExtensionsTests */,
+				55DBC882163096D7005837FD /* STExt */,
 			);
 		};
 /* End PBXProject section */
@@ -268,15 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5562970815ED625C00F1E044 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5575C17315E9E857005CF482 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5575C18415E9E857005CF482 /* InfoPlist.strings in Resources */,
-				5575C18D15E9E857005CF482 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,16 +286,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5575C17115E9E857005CF482 /* Sources */ = {
+		55DBC87F163096D7005837FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5575C18615E9E857005CF482 /* main.m in Sources */,
-				5575C18A15E9E857005CF482 /* DUAppDelegate.m in Sources */,
-				5575C19015E9E857005CF482 /* DUViewController.m in Sources */,
-				5575C19B15E9E962005CF482 /* NSArray+SmalltalkCollections.m in Sources */,
-				5552F78915E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m in Sources */,
-				5552F78D15EB04C1004AEBA9 /* NSString+SmalltalkString.m in Sources */,
+				55DBC88B163096D7005837FD /* STExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,22 +303,6 @@
 				5562970715ED625C00F1E044 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5575C18215E9E857005CF482 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5575C18315E9E857005CF482 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5575C18B15E9E857005CF482 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5575C18C15E9E857005CF482 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,27 +399,42 @@
 			};
 			name = Release;
 		};
-		5575C19415E9E857005CF482 /* Debug */ = {
+		55DBC88D163096D7005837FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/STExt.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SmalltalkExtensions/SmalltalkExtensions-Prefix.pch";
-				INFOPLIST_FILE = "SmalltalkExtensions/SmalltalkExtensions-Info.plist";
+				GCC_PREFIX_HEADER = "STExt/STExt-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "../../Headers/$(TARGET_NAME)/Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		5575C19515E9E857005CF482 /* Release */ = {
+		55DBC88E163096D7005837FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/STExt.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SmalltalkExtensions/SmalltalkExtensions-Prefix.pch";
-				INFOPLIST_FILE = "SmalltalkExtensions/SmalltalkExtensions-Info.plist";
+				GCC_PREFIX_HEADER = "STExt/STExt-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "../../Headers/$(TARGET_NAME)/Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -477,11 +459,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5575C19315E9E857005CF482 /* Build configuration list for PBXNativeTarget "SmalltalkExtensions" */ = {
+		55DBC88C163096D7005837FD /* Build configuration list for PBXNativeTarget "STExt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5575C19415E9E857005CF482 /* Debug */,
-				5575C19515E9E857005CF482 /* Release */,
+				55DBC88D163096D7005837FD /* Debug */,
+				55DBC88E163096D7005837FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
