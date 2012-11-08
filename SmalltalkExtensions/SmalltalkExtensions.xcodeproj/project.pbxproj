@@ -23,6 +23,9 @@
 		55933F1115F411600087A93A /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55933F1015F411600087A93A /* GHUnitIOS.framework */; };
 		55933F2015F418FE0087A93A /* STArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55933F1E15F418FE0087A93A /* STArrayTests.m */; };
 		55AEEDB815F2A55D00A57948 /* STMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */; };
+		55D6DADB1649BFDD000F9D96 /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575C19A15E9E962005CF482 /* NSArray+SmalltalkCollections.m */; };
+		55D6DADD1649BFDD000F9D96 /* NSMutableArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78815E9FBCD004AEBA9 /* NSMutableArray+SmalltalkCollections.m */; };
+		55D6DADF1649BFDD000F9D96 /* NSString+SmalltalkString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */; };
 		55DBC884163096D7005837FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5575C17B15E9E857005CF482 /* Foundation.framework */; };
 		55DBC889163096D7005837FD /* STExt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55DBC888163096D7005837FD /* STExt.h */; };
 		55DBC88B163096D7005837FD /* STExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBC88A163096D7005837FD /* STExt.m */; };
@@ -290,6 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D6DADB1649BFDD000F9D96 /* NSArray+SmalltalkCollections.m in Sources */,
+				55D6DADD1649BFDD000F9D96 /* NSMutableArray+SmalltalkCollections.m in Sources */,
+				55D6DADF1649BFDD000F9D96 /* NSString+SmalltalkString.m in Sources */,
 				55DBC88B163096D7005837FD /* STExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
