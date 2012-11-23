@@ -15,4 +15,6 @@
 -(BOOL) match: (NSString*) text;
 -(NSString*) trim;
 
++(BOOL) isNilOrEmpty: (NSString*) string;
+
 @end

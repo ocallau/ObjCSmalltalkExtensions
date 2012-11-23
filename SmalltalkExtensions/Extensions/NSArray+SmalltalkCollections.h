@@ -15,6 +15,8 @@ typedef id(^STBinary)(id obj1, id obj2);
 
 @interface NSArray (SmalltalkCollections)
 
++(BOOL) isNilOrEmpty: (NSArray*) array;
+
 -(id) first;
 -(id) second;
 -(id) third;

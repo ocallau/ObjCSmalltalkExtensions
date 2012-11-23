@@ -106,7 +106,9 @@
     return neo;
 }
 
-
++(BOOL) isNilOrEmpty: (NSArray*) array{
+    return array==nil || [array isEmpty];
+}
 
 /*
  Next Candidates:

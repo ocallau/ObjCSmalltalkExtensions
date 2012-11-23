@@ -57,6 +57,11 @@
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
++(BOOL) isNilOrEmpty: (NSString*) string{
+    return string==nil || string.length == 0;
+}
+
+
 /*
  candidates:
  String >> asNSDate or dateValue. but the format is relevant!
