@@ -54,7 +54,6 @@
 		5552F78C15EB04C1004AEBA9 /* NSString+SmalltalkString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SmalltalkString.m"; path = "Extensions/NSString+SmalltalkString.m"; sourceTree = "<group>"; };
 		556296FE15ED625C00F1E044 /* SmalltalkExtensionsTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmalltalkExtensionsTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5562970515ED625C00F1E044 /* SmalltalkExtensionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmalltalkExtensionsTests-Info.plist"; sourceTree = "<group>"; };
-		5562970715ED625C00F1E044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5562970915ED625C00F1E044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5562970B15ED625C00F1E044 /* SmalltalkExtensionsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmalltalkExtensionsTests-Prefix.pch"; sourceTree = "<group>"; };
 		5562970C15ED625C00F1E044 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		55933F1015F411600087A93A /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
 		55933F1E15F418FE0087A93A /* STArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STArrayTests.m; path = Tests/STArrayTests.m; sourceTree = "<group>"; };
 		55933F1F15F418FE0087A93A /* STArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STArrayTests.h; path = Tests/STArrayTests.h; sourceTree = "<group>"; };
+		55A9F6EA166025C600D17532 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55AEEDB615F2A55D00A57948 /* STMutableArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMutableArrayTest.h; path = Tests/STMutableArrayTest.h; sourceTree = "<group>"; };
 		55AEEDB715F2A55D00A57948 /* STMutableArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMutableArrayTest.m; path = Tests/STMutableArrayTest.m; sourceTree = "<group>"; };
 		55DBC883163096D7005837FD /* libSTExt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTExt.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +250,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = 5575C16A15E9E857005CF482;
 			productRefGroup = 5575C17615E9E857005CF482 /* Products */;
@@ -306,7 +307,7 @@
 		5562970615ED625C00F1E044 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5562970715ED625C00F1E044 /* en */,
+				55A9F6EA166025C600D17532 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
