@@ -11,6 +11,7 @@
 #import "NSMutableArray+SmalltalkCollections.h"
 #import "NSArray+SmalltalkCollections.h"
 #import "NSString+SmalltalkString.h"
+#import "NSSet+SmalltalkSet.h"
 
 @interface STExt : NSObject
 

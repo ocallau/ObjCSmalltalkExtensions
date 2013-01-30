@@ -11,15 +11,19 @@
 @implementation NSArray (SmalltalkCollections)
 
 -(id) first{
+    if(self.count < 1) return nil;
     return [self objectAtIndex:0];
 }
 -(id) second{
+    if(self.count < 2) return nil;
     return [self objectAtIndex:1];
 }
 -(id) third{
+    if(self.count < 3) return nil;
     return [self objectAtIndex:2];
 }
 -(id) fourth{
+    if(self.count < 4) return nil;
     return [self objectAtIndex:3];
 }
 
@@ -61,7 +65,8 @@
 -(NSArray*) collect: (STTranslator) transalator{
     NSMutableArray* neo= [NSMutableArray arrayWithCapacity:[self count]];
     for(id obj in self){
-        [neo addObject:transalator(obj)];
+        id objT = transalator(obj);
+        if(objT)[neo addObject:objT];
     }
     return neo;
 }

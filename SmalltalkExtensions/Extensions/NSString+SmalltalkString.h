@@ -13,6 +13,7 @@
 
 -(BOOL)includesSubString:(NSString*) subString;
 -(BOOL) match: (NSString*) text;
+-(BOOL) matchInsensitive: (NSString*) text;
 -(NSString*) trim;
 
 +(BOOL) isNilOrEmpty: (NSString*) string;

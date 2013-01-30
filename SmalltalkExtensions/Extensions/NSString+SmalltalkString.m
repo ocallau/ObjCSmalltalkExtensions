@@ -52,6 +52,10 @@
     return c > 0;
 } //test it
 
+-(BOOL) matchInsensitive: (NSString*) text{
+    return [[NSString stringWithFormat:@"*%@*",[self uppercaseString]] match: [text uppercaseString]];
+}
+
 
 -(NSString*) trim{
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
